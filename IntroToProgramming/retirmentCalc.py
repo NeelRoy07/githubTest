@@ -1,0 +1,5 @@
+Year = float(input("What is the current year: "))
+Age = float(input("What is your age: "))
+RetAge = float(input("What age do you want to retire: "))
+print("You have ", round((RetAge - Age)), " years left")
+print("You can retire in the year", round(((RetAge - Age) + Year)))
